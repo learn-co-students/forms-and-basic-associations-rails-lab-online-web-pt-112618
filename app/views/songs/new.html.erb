@@ -6,5 +6,12 @@
   <%= collection_select :title, Song.all, :name, :name %>
   <br />
 
+  <%= form_for @song do |f| %>
+  <input name="song[artist_name][]">
+  <input name="song[artist_name][]">
+  <input name="song[artist_name][]">
+  <input type="submit" value="Submit">
+<% end %>
+
   <%= f.submit %>
 <% end %>
