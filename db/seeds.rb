@@ -159,4 +159,38 @@ genres = Hash[[
   "Synthpop"
 ].map { |genre| [genre, Genre.find_or_create_by(name: genre)] }]
 
+Artist.create(name: "Kanye West")
+Artist.create(name: "Drake")
+Artist.create(name: "Jay Z")
+Artist.create(name: "Adele")
+Artist.create(name: "Beyonce")
 
+Song.create(title: "Jesus Walks", artist_id: 1, genre_id: 8)
+Song.create(title: "Gold Digger", artist_id: 1, genre_id: 8)
+Song.create(title: "All Day", artist_id: 1, genre_id: 8)
+Song.create(title: "Amazing", artist_id: 1, genre_id: 8)
+Song.create(title: "Facts", artist_id: 1, genre_id: 8)
+
+Song.create(title: "10 Bands", artist_id: 2, genre_id: 8)
+Song.create(title: "6 God", artist_id: 2, genre_id: 8)
+Song.create(title: "Charged Up", artist_id: 2, genre_id: 8)
+Song.create(title: "God's Plan", artist_id: 2, genre_id: 8)
+Song.create(title: "Hotline Bling", artist_id: 2, genre_id: 8)
+
+Song.create(title: "Encore", artist_id: 3, genre_id: 8)
+Song.create(title: "Swagga Like Us", artist_id: 3, genre_id: 8)
+Song.create(title: "Empire State of Mind", artist_id: 3, genre_id: 8)
+Song.create(title: "Izzo (H.O.V.A.)", artist_id: 3, genre_id: 8)
+Song.create(title: "Where I’m From", artist_id: 3, genre_id: 8)
+
+Song.create(title: "Hello", artist_id: 4, genre_id: 61)
+Song.create(title: "I Found A Boy", artist_id: 4, genre_id: 61)
+Song.create(title: "Rolling In The Deep", artist_id: 4, genre_id: 61)
+Song.create(title: "Someone Like You", artist_id: 4, genre_id: 61)
+Song.create(title: "Remedy", artist_id: 4, genre_id: 61)
+
+Song.create(title: "Drunk In Love", artist_id: 5, genre_id: 61)
+Song.create(title: "Halo", artist_id: 5, genre_id: 61)
+Song.create(title: "Partition", artist_id: 5, genre_id: 61)
+Song.create(title: "Crazy In Love", artist_id: 5, genre_id: 61)
+Song.create(title: "Hold Up", artist_id: 5, genre_id: 61)
